@@ -100,3 +100,23 @@ export interface ValidationResult {
   feedback: string;
   normalizedUserInput?: string;
 }
+
+// Added missing visual geometry types for GeometryCanvas
+export interface VisualPoint {
+  x: number;
+  y: number;
+  id: string;
+  label: string;
+}
+
+export interface VisualLine {
+  p1Id: string;
+  p2Id: string;
+  id: string;
+  label: string;
+}
+
+export interface VisualState {
+  points: VisualPoint[];
+  lines: VisualLine[];
+}

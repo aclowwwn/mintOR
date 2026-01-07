@@ -56,7 +56,19 @@ const translations = {
     statusSolvedHints: "Rezolvat cu indicii",
     statusInProgress: "În lucru",
     statusNotStarted: "Neînceput",
-    course: "Curs"
+    course: "Curs",
+    sandboxTitle: "Spațiu de Lucru Geometrie",
+    sandboxDesc: "Folosește acest spațiu pentru a desena linii și a vizualiza problema.",
+    clearCanvas: "Șterge Tot",
+    snapToGrid: "Alinează la caroiaj",
+    toolLine: "Linie",
+    toolPoint: "Punct",
+    showSandbox: "Deschide Sandbox",
+    hideSandbox: "Ascunde Sandbox",
+    showPointLabels: "Nume Puncte",
+    showLineLabels: "Nume Linii",
+    showPoints: "Vizibilitate Puncte",
+    undo: "Anulează"
   },
   en: {
     appName: "Math Mentor",
@@ -112,7 +124,19 @@ const translations = {
     statusSolvedHints: "Solved with hints",
     statusInProgress: "In progress",
     statusNotStarted: "Not started",
-    course: "Course"
+    course: "Course",
+    sandboxTitle: "Geometry Sandbox",
+    sandboxDesc: "Use this space to draw lines and visualize the problem.",
+    clearCanvas: "Clear All",
+    snapToGrid: "Snap to Grid",
+    toolLine: "Line",
+    toolPoint: "Point",
+    showSandbox: "Open Sandbox",
+    hideSandbox: "Hide Sandbox",
+    showPointLabels: "Point Names",
+    showLineLabels: "Line Names",
+    showPoints: "Show Points",
+    undo: "Undo"
   }
 };
 
